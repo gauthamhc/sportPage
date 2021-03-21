@@ -190,3 +190,36 @@ a {
 .adv {
   padding: 30px 0;
 }
+
+.keysHabit {
+  margin: 20px 60px;
+}
+
+.discover {
+  text-align: center;
+}
+
+.keys {
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.keys div {
+  margin: 10px;
+}
+
+.key h3 {
+  text-align: center;
+}
+.key p {
+  text-align: center;
+}
+.key img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
