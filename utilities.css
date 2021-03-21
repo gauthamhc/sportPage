@@ -1,15 +1,15 @@
 /* List styling for border bottom */
-li {
+.navbarlist li {
   display: inline-block;
   position: relative;
   padding-bottom: 3px;
   margin-right: 10px;
 }
-li:last-child {
+.navbarlist li:last-child {
   display: inline-block;
 }
 
-li:after {
+.navbarlist li:after {
   content: "";
   display: block;
   margin: auto;
@@ -19,20 +19,20 @@ li:after {
   transition: width 0.5s ease, background-color 0.5s ease;
 }
 
-li:last-child:after {
+.navbarlist li:last-child:after {
   display: none;
 }
 
-li:hover:after {
+.navbarlist li:hover:after {
   width: 100%;
-  background: var(--button-color);
+  background: var(--primary-color);
 }
 
 /* Buttons */
 .btn {
   text-transform: uppercase;
   padding: 12px 24px;
-  background-color: var(--button-color);
+  background-color: var(--primary-color);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
   display: inline-block;
   cursor: pointer;

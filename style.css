@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 :root {
-  --primary-color: #047aed;
+  --primary-color: #46f1ca;
   --secondary-color: #1c3fa8;
   --dark-color: #002240;
   --light-color: #f4f4f4;
   --success-color: #5cb85c;
   --error-color: #d9534f;
-  --button-color: #46f1ca;
   --button-hover-color: #79ddc4;
 }
 
@@ -70,4 +69,124 @@ a {
 .btn-trailer {
   margin-top: 40px;
   width: 40%;
+}
+
+.intro-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  min-height: 60vh;
+}
+
+.intro-body h3 {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.intro-body h2 {
+  font-size: 3rem;
+}
+
+.arrow {
+  width: 99;
+  height: 26;
+}
+
+.learning {
+  background-color: #d6f7ee;
+  padding: 100px 0;
+}
+
+.check-mark {
+  background: url(https://slowgrowth.com/wp-content/themes/slow-growth/images/icons/check.svg)
+    no-repeat;
+  background-position: 0 4px;
+  padding-right: 35px;
+  list-style: none;
+  font-size: 24px;
+}
+
+.heading {
+  margin-left: 60px;
+}
+
+.advantages {
+  margin-right: 60px;
+}
+
+.advantages ul li {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  background-color: #2f2f2f;
+}
+
+.paymentHeading {
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.paymentButtons {
+  margin: 10px 0;
+}
+
+.btnn {
+  padding: 16px 30px;
+  width: 300px;
+  text-transform: uppercase;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+.btnFirst {
+  background-color: var(--primary-color);
+}
+
+.testimonial {
+  margin: 20px 60px;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-img img {
+  border-radius: 50%;
+}
+
+.para-test {
+  margin-left: 20px;
+  width: 660px;
+  /* font-size: 150%; */
+}
+
+.para-test-name {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.check-wrong {
+  background: url(https://slowgrowth.com/wp-content/themes/slow-growth/images/icons/x.svg)
+    no-repeat;
+  background-position: 0 4px;
+  padding-right: 35px;
+  list-style: none;
+  font-size: 24px;
+}
+
+.adv {
+  padding: 30px 0;
 }
