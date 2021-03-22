@@ -175,7 +175,7 @@ a {
 
 .para-test {
   margin-left: 20px;
-  width: 660px;
+  width: 100%;
   /* font-size: 150%; */
 }
 
@@ -332,6 +332,7 @@ footer {
     margin: 1.5rem;
   }
   .testimonial {
+    display: flex;
     flex-direction: column;
     padding: 40px;
   }
@@ -343,5 +344,13 @@ footer {
 
   footer {
     font-size: 1rem;
+  }
+  .contents {
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .contents .insta {
+    grid-column: 2/3;
   }
 }
