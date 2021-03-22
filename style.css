@@ -127,7 +127,8 @@ a {
   justify-content: center;
   align-items: center;
   padding: 100px 0;
-  background-color: #2f2f2f;
+  background: url(https://slowgrowth.com/wp-content/themes/slow-growth/images/textures/black-texture.png)
+    #1b1b1b;
 }
 
 .paymentHeading {
@@ -221,5 +222,44 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  max-width: 50%;
+}
+
+footer {
+  padding: 30px 20px;
+  background: #f6f2f1;
+}
+
+.contents {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+}
+
+.contents ul {
+  grid-column: 1/6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents .insta {
+  grid-column: 8/-1;
+}
+
+.copyright {
+  padding: 20px 0;
+}
+
+.terms {
+  display: flex;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.terms ul {
+  text-decoration: underline;
+}
+
+.terms ul:first-child {
+  margin-right: 10px;
 }
