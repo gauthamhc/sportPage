@@ -1,3 +1,9 @@
+/* Image */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* List styling for border bottom */
 .navbarlist li {
   display: inline-block;

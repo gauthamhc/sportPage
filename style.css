@@ -51,17 +51,18 @@ a {
   align-items: center;
 }
 
+/* Introduction section */
 .intro {
   display: flex;
   flex-direction: column;
 }
 
 .intro h1 {
-  font-size: 3.6rem;
+  font-size: 2.5rem;
 }
 
 .intro .para-1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 .intro .para-2 {
   padding-top: 20px;
@@ -69,6 +70,7 @@ a {
 .btn-trailer {
   margin-top: 40px;
   width: 40%;
+  transform: translate3d(0px, 64px, 0px);
 }
 
 .intro-body {
@@ -76,19 +78,21 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* position: relative; */
   min-height: 60vh;
 }
 
-.intro-body h3 {
+.intro-body h4 {
   color: var(--primary-color);
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
 
 .intro-body h2 {
-  font-size: 3rem;
+  /* font-size: 3rem; */
 }
 
+#player {
+  margin: 20px;
+}
 .arrow {
   width: 99;
   height: 26;
@@ -262,4 +266,48 @@ footer {
 
 .terms ul:first-child {
   margin-right: 10px;
+}
+
+/* screen size for mobile */
+@media screen and (max-width: 620px) {
+  .navbar h1 {
+    font-size: large;
+  }
+  .intro h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .intro .para-1 {
+    font-size: 1.2rem;
+  }
+  .intro-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-trailer {
+    margin-top: 0;
+    width: 30%;
+    transform: translate3d(0px, 64px, 0px);
+  }
+  .intro-body {
+    margin-top: 80px;
+  }
+
+  /*learning section*/
+  .learning {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading h2 {
+    font-size: 2.4rem;
+  }
+  .heading svg {
+    display: none;
+  }
 }
