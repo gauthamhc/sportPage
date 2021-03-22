@@ -14,13 +14,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   color: #333;
   line-height: 1.6;
-  overflow: hidden;
 }
 
 ul {
@@ -306,9 +306,39 @@ footer {
     flex-direction: column;
   }
   .heading h2 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+    text-align: center;
   }
   .heading svg {
     display: none;
+  }
+  .advantages {
+    padding: 2rem;
+  }
+  .disadvantages {
+    padding: 2rem;
+  }
+  .paymentHeading h2 {
+    font-size: 2rem;
+  }
+  .paymentButtons {
+    display: flex;
+    flex-direction: column;
+  }
+  .paymentButtons button {
+    margin: 1.5rem;
+  }
+  .testimonial {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .keys {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    font-size: 1rem;
   }
 }
